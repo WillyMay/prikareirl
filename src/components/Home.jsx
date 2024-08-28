@@ -1,8 +1,9 @@
 import React from 'react'
+import GaleriaServicios from './Servicios/GaleriaServicios'
 
 function Home() {
   return (
-    <div>Home</div>
+    <GaleriaServicios />
   )
 }
 
