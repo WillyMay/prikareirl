@@ -10,6 +10,27 @@ import HeroImg from "./assets/Heroe.webp";
 import Servicios from "./components/Servicios";
 import Contacto from "./components/Contacto";
 
+//HashRouter
+import { createHashRouter, RouterProvider } from "react-router-dom";
+
+const router = createHashRouter([
+  {
+    path:"/",
+    element:<Home />
+  },
+  {
+    path:"/nosotros",
+    element:<Nosotros />
+  },
+  {
+    path:"/servicios",
+    element:<Servicios />
+  },
+  {
+    path:"/contacto",
+    element:<Contacto />
+  }
+])
 function App() {
   return (
     <>
@@ -17,15 +38,7 @@ function App() {
         <Navbar logo={LogoImg}/>
       </nav>
       <Hero background={HeroImg} telefono="/"/>
-      <Router basename="/prikareirl">
-        <Routes>
-          <Route path="/" element={<Home />}>
-          </Route>
-          <Route path="/nosotros" element={<Nosotros />} />
-          <Route path="/servicios" element={<Servicios />} />
-          <Route path="/contacto" element={<Contacto />} />
-        </Routes>
-      </Router>
+      <RouterProvider router={router}/>
       <Footer />
     </>
   );
