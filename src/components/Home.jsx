@@ -3,11 +3,13 @@ import GaleriaServicios from './Servicios/GaleriaServicios'
 import Hero from './Hero'
 import HeroImg from '../assets/Heroe.webp'
 import Whatsapp from './Whatsapp'
+import Principalesservicios from './Principalesservicios'
 function Home() {
   return (
     <>
         <Hero background={HeroImg}/>
-        <GaleriaServicios />
+
+        <Principalesservicios />
         <Whatsapp />
     </>
   )
