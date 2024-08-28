@@ -12,9 +12,9 @@ import { Link } from "react-router-dom";
 
 const navigation = [
   { name: "Inicio", href: "/", current: true },
-  { name: "Nosotros", href: "/prikareirl/nosotros", current: false },
-  { name: "Servicios", href: "/prikareirl/servicios", current: false },
-  { name: "Contacto", href: "/prikareirl/contacto", current: false },
+  { name: "Nosotros", href: "/prikareirl/#/nosotros", current: false },
+  { name: "Servicios", href: "/prikareirl/#/servicios", current: false },
+  { name: "Contacto", href: "/prikareirl/#/contacto", current: false },
 ];
 
 function classNames(...classes) {
@@ -52,33 +52,23 @@ export default function Navbar(props) {
                 />
               </a>
             </div>
-            {/* <div className="hidden sm:ml-6 sm:block">
+            <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
-                  <Link to={item.href}>
-                    aria-current={item.current ? "page" : undefined}
-                    className=
-                    {classNames(
-                      item.current
-                        ? "bg-gray-200 text-blue"
-                        : "text-black hover:bg-gray-200 hover:text-black",
-                      "rounded-md px-3 py-2 text-sm font-medium"
-                    )}
-                    {item.name}
-                  </Link>
-                  //   <a
-                  //     href={item.href}
-                  //     aria-current={item.current ? 'page' : undefined}
-                  //     className={classNames(
-                  //       item.current ? 'bg-gray-200 text-blue' : 'text-black hover:bg-gray-200 hover:text-black',
-                  //       'rounded-md px-3 py-2 text-sm font-medium',
-                  //     )}
-                  //   >
-                  //     {item.name}
-                  //   </a>
+                   <a
+                   key={item.name}
+                   href={item.href}
+                   aria-current={item.current ? 'page' : undefined}
+                   className={classNames(
+                     item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                     'rounded-md px-3 py-2 text-sm font-medium',
+                   )}
+                 >
+                   {item.name}
+                 </a>
                 ))}
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button className="btn text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static ml-0">
