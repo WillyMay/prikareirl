@@ -11,7 +11,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Inicio", href: "/", current: true },
+  { name: "Inicio", href: "/prikareirl/#/", current: true },
   { name: "Nosotros", href: "/prikareirl/#/nosotros", current: false },
   { name: "Servicios", href: "/prikareirl/#/servicios", current: false },
   { name: "Contacto", href: "/prikareirl/#/contacto", current: false },
