@@ -5,13 +5,16 @@ import Home from "./components/Home";
 import Nosotros from "./components/Nosotros";
 import Navbar from "./components/Navbar";
 import LogoImg from './assets/Logo.webp';
+import Hero from "./components/Hero";
+import HeroImg from "./assets/Heroe.webp";
+
 function App() {
   return (
     <>
       <nav>
         <Navbar logo={LogoImg}/>
       </nav>
-      <h1 className="text-3xl font-bold underline">Hola! </h1>
+      <Hero background={HeroImg} telefono="/"/>
       <Router basename="/prikareirl">
         <Routes>
           <Route path="/" element={<Home />}>
