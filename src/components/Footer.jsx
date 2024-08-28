@@ -6,7 +6,7 @@ function Footer(props) {
 
 <footer className="bg-white rounded-lg">
     <div className="w-full max-w-screen-xl mx-auto p-4">
-    <a href="/" className="flex justify-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse mx-auto">
+    <a href="/prikareirl/#/" className="flex justify-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse mx-auto">
                 <img src={props.logo} className="h-40" alt="Prikar Eirl" />
             </a>
         <div className="sm:flex sm:items-start sm:justify-between">
