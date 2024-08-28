@@ -4,8 +4,8 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Inicio', href: '/', current: true },
   { name: 'Nosotros', href: '/prikareirl/nosotros', current: false },
-  { name: 'Servicios', href: '/servicios', current: false },
-  { name: 'Contacto', href: '/prikareirlcontacto', current: false },
+  { name: 'Servicios', href: '/prikareirl/servicios', current: false },
+  { name: 'Contacto', href: '/prikareirl/contacto', current: false },
 ]
 
 function classNames(...classes) {
