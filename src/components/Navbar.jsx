@@ -58,7 +58,7 @@ export default function Navbar(props) {
           <button className="btn text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static ml-0">
             {" "}
             <a
-              href="tel:+56967511208"
+              href="/"
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white bg-red-600 rounded-lg border border-white hover:bg-red-900 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
               <svg
