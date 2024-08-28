@@ -35,7 +35,7 @@ function GaleriaServicios() {
                   />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                     <button className="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
-                      View
+                      Saber más
                     </button>
                   </div>
                     <h3 className="text-center font-bold pt-3">{servicio.name}</h3>

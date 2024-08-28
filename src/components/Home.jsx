@@ -1,9 +1,13 @@
 import React from 'react'
 import GaleriaServicios from './Servicios/GaleriaServicios'
-
+import Hero from './Hero'
+import HeroImg from '../assets/Heroe.webp'
 function Home() {
   return (
-    <GaleriaServicios />
+    <>
+        <Hero background={HeroImg}/>
+        <GaleriaServicios />
+    </>
   )
 }
 
