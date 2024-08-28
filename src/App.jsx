@@ -37,7 +37,7 @@ function App() {
       </nav>
       <Hero background={HeroImg} telefono="/"/>
       <RouterProvider router={router}/>
-      <Footer />
+      <Footer logo={LogoImg}/>
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Servicios() {
   return (
-    <div>Servicios</div>
+    <div className='text-center text-3xl font-bold py-3'>Nuestros servicios</div>
   )
 }
 
