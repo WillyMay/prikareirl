@@ -22,7 +22,7 @@ function Hero(props) {
         </h3>
         <a
           href={props.telefono}
-          className="bg-blue-400 text-gray-900 hover:bg-blue-500 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg mt-10"
+          className="bg-blue-400 text-gray-900 hover:bg-blue-500 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg mt-10 hover:cursor-pointer"
         >
           Contáctanos
         </a>

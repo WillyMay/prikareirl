@@ -11,6 +11,10 @@ import Contacto from "./components/Contacto";
 //HashRouter
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
+
+const llamada = "tel:+56958391985";
+const whatsapp = "https://wa.link/6r4r5d";
+
 const router = createHashRouter([
   {
     path:"/",
@@ -33,10 +37,10 @@ function App() {
   return (
     <>
       <nav>
-        <Navbar logo={LogoImg}/>
+        <Navbar logo={LogoImg} telefono={llamada}/>
       </nav>
       <RouterProvider router={router}/>
-      <Footer logo={LogoImg}/>
+      <Footer logo={LogoImg} telefono={llamada}/>
     </>
   );
 }

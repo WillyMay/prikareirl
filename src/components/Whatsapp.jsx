@@ -16,7 +16,7 @@ function Whatsapp() {
       <div className="lg:mt-0 lg:flex-shrink-0">
         <div className="inline-flex mt-12 rounded-md shadow">
           <a
-            href=""
+            href="https://wa.link/6r4r5d"
             className="w-full px-6 py-4 text-base font-semibold text-center text-white transition duration-200 ease-in bg-green-600 rounded-lg shadow-md hover:bg-green-900 focus:ring-lime-900 focus:ring-offset-lime-900 focus:outline-none focus:ring-2 focus:ring-offset-2 "
           >
             Presiona aquí

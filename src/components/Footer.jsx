@@ -11,7 +11,7 @@ function Footer(props) {
             </a>
         <div className="sm:flex sm:items-start sm:justify-between">
             <div>
-            <p className='font-medium text-gray-500'>Fono: </p>
+            <a href={props.telefono} className='underline'><p className='font-medium text-gray-500'>Fono: +56 9 5839 1985</p></a>
             <p className='font-medium text-gray-500'>Email: </p>
             <br /><br />
             </div>
