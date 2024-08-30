@@ -15,9 +15,7 @@ function Nosotros() {
             </h2>
             <p className="mt-4 text-gray-600 text-lg">
               Somos una empresa seria y responsable dedicada a la atención integral de los
-              problemas de viviendas y empresas, en comunas como Las Condes, Lo
-              Barnechea, Providencia, Vitacura, Ñuñoa, La Reina, Chicureo y todo
-              Santiago. Otorgamos un servicio confiable con personal técnico
+              problemas de viviendas y empresas, en todas las comunas de la V Región (Quillota, Calera, Los Andes, Viña del Mar, Valparaiso, Quilpue, Belloto, Villa Alemana, Con-Con, Reñaca). Otorgamos un servicio confiable con personal técnico
               calificado, quienes ofrecen diagnósticos certeros y trabajos
               garantizados. Nuestra misión es entregar servicios integrales de
               manera rápida, segura y responsable en cada una de nuestras áreas.
