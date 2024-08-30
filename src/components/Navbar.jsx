@@ -11,10 +11,10 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Inicio", href: "/prikareirl/#/", current: true },
-  { name: "Nosotros", href: "/prikareirl/#/nosotros", current: false },
-  { name: "Servicios", href: "/prikareirl/#/servicios", current: false },
-  { name: "Contacto", href: "/prikareirl/#/contacto", current: false },
+  { name: "Inicio", href: "/#/", current: true },
+  { name: "Nosotros", href: "/#/nosotros", current: false },
+  { name: "Servicios", href: "/#/servicios", current: false },
+  { name: "Contacto", href: "/#/contacto", current: false },
 ];
 
 function classNames(...classes) {
@@ -43,7 +43,7 @@ export default function Navbar(props) {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <a href="/prikareirl/#/">
+              <a href="/#/">
                 {" "}
                 <img
                   alt="Your Company"
