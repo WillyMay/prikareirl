@@ -28,11 +28,11 @@ const servicios = [
   { id: 6, name: "Detección de Fugas de Agua", image: image6 },
   { id: 7, name: "Construcción y Reparaciones", image: image7 },
   { id: 9, name: "Maestro Pintores", image: image8 },
-  { id: 10, name: "Reparación y Matención Sala Hidropack", image: image9 },
+  { id: 10, name: "Reparación y Matención Sala Hidropack", image: image13 },
   { id: 11, name: "Servicios de Perforacion con Testiguera", image: image10 },
   { id: 12, name: "Instalador sanitario autorizado", image: image11 },
-  { id: 13, name: "Servicios de Electrofusión HDPE", image: image12 },
-  { id: 14, name: "Proyectos sanitarios", image: image13 },
+  { id: 13, name: "Servicios de Electrofusión HDPE", image: image9 },
+  { id: 14, name: "Proyectos sanitarios", image: image12 },
   { id: 15, name: "Estructuras metalicas", image: image14 },
 ];
 
