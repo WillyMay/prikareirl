@@ -1,16 +1,16 @@
 import React from "react";
 import image1 from "../assets/1.webp";
-import image2 from "../assets/2.webp";
-import image3 from "../assets/3.webp";
-import image4 from "../assets/4.webp";
+import image2 from "../assets/image3.webp";
+import image3 from "../assets/image7.webp";
+import image4 from "../assets/image6.webp";
 
 const defaultImage =
   "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxuYXR1cmV8ZW58MHwwfHx8MTY5NDA5OTcyOXww&ixlib=rb-4.0.3&q=80&w=1080";
 const servicios = [
   { id: 1, name: "Gastifer Gasfiteria", image: image1 },
-  { id: 2, name: "Reparación de Calefont", image: image2 },
+  { id: 2, name: "Empalmes de Agua y Alcantarillado", image: image2 },
   { id: 3, name: "Construcción y reparaciones", image: image3 },
-  { id: 4, name: "Detección de fugas de agua y gas", image: image4 },
+  { id: 4, name: "Detección de fugas de Agua", image: image4 },
 ];
 function Principalesservicios() {
   return (

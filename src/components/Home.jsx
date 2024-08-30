@@ -1,7 +1,7 @@
 import React from 'react'
 import GaleriaServicios from './Servicios/GaleriaServicios'
 import Hero from './Hero'
-import HeroImg from '../assets/Heroe.webp'
+import HeroImg from '../assets/5.webp'
 import Whatsapp from './Whatsapp'
 import Principalesservicios from './Principalesservicios'
 
