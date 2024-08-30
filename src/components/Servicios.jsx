@@ -4,7 +4,6 @@ import GaleriaServicios from "./Servicios/GaleriaServicios";
 function Servicios() {
   return (
     <>
-      <div>Servicios</div>
       <GaleriaServicios />
     </>
   );

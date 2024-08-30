@@ -1,34 +1,37 @@
 import React from "react";
 import image1 from "../../assets/1.webp";
-import image2 from "../../assets/2.webp";
-import image3 from "../../assets/3.webp";
-import image4 from "../../assets/4.webp";
-import image5 from "../../assets/5.webp";
-import image6 from "../../assets/6.webp";
-import image7 from "../../assets/7.webp";
+import image2 from "../../assets/image2.webp";
+import image3 from "../../assets/image3.webp";
+import image4 from "../../assets/image4.webp";
+import image5 from "../../assets/image5.webp";
+import image6 from "../../assets/image6.webp";
+import image7 from "../../assets/image7.webp";
 import image8 from "../../assets/13.webp";
-import image9 from "../../assets/12.webp";
-import image10 from "../../assets/10.webp";
-import image11 from "../../assets/11.webp";
+import image9 from "../../assets/image12.webp";
+import image10 from "../../assets/image10.webp";
+import image11 from "../../assets/image11.webp";
 import image12 from "../../assets/8.webp";
-import image13 from "../../assets/9.webp";
-import image14 from "../../assets/14.webp";
+import image13 from "../../assets/image9.webp";
+import image14 from "../../assets/image14.webp";
+import image0 from "../../assets/image0.webp";
+
 
 const defaultImage =
   "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxuYXR1cmV8ZW58MHwwfHx8MTY5NDA5OTcyOXww&ixlib=rb-4.0.3&q=80&w=1080";
 const servicios = [
+  {id: 0, name: "Proyectos Sanitarios", image: image0},
   { id: 1, name: "Gasfiter gasfiteria", image: image1 },
   { id: 2, name: "Destape de alcantarillado", image: image2 },
-  { id: 3, name: "Reparación de Calefont", image: image3 },
+  { id: 3, name: "Empalmes de Agua y Alcantarillado", image: image3 },
   { id: 4, name: "Reparación de Techos", image: image4 },
   { id: 5, name: "Ductoscopia, Video Inspección", image: image5 },
-  { id: 6, name: "Detección de Fugas de Agua y Gas", image: image6 },
+  { id: 6, name: "Detección de Fugas de Agua", image: image6 },
   { id: 7, name: "Construcción y Reparaciones", image: image7 },
   { id: 9, name: "Maestro Pintores", image: image8 },
-  { id: 10, name: "Detección de Fugas de Piscinas", image: image9 },
-  { id: 11, name: "Reparación de Cañerias de Riego", image: image10 },
+  { id: 10, name: "Reparación y Matención Sala Hidropack", image: image9 },
+  { id: 11, name: "Servicios de Perforacion con Testiguera", image: image10 },
   { id: 12, name: "Instalador sanitario autorizado", image: image11 },
-  { id: 13, name: "Reparaciones HDP", image: image12 },
+  { id: 13, name: "Servicios de Electrofusión HDPE", image: image12 },
   { id: 14, name: "Proyectos sanitarios", image: image13 },
   { id: 15, name: "Estructuras metalicas", image: image14 },
 ];
